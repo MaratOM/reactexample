@@ -1,0 +1,60 @@
+export default [
+  {
+    name: 'oid',
+    label: 'Order ID',
+    value: 365,
+    type: 'hidden',
+    editable: false,
+  },
+  {
+    name: 'salonName',
+    label: 'Название салона',
+    value: 'Шангрила',
+    type: 'name',
+    editable: false,
+  },
+  // {
+  //   name: 'services',
+  //   label: 'Услуга(и)',
+  //   value: [
+  //     'Стрижка',
+  //     'Окраска',
+  //   ],
+  //   type: 'name',
+  //   editable: false,
+  //   required: true,
+  // },
+  {
+    name: 'created',
+    label: 'Дата',
+    value: '01-03-2018',
+    type: 'created',
+    editable: false,
+  },
+  {
+    name: 'sumOrder',
+    label: 'Стоимость',
+    value: 2000,
+    type: 'input',
+    editable: false,
+  },
+  {
+    name: 'sumPon',
+    label: 'Оплатить понами',
+    value: 400,
+    type: 'sum',
+    editable: true,
+    required: true,
+  },
+  {
+    name: 'sumRub',
+    label: 'К оплате рублями',
+    value: 1600,
+    type: 'input',
+    editable: false,
+  },
+  {
+    name: 'availablePonSum',
+    type: 'hidden',
+  },
+]

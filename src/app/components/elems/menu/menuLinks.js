@@ -1,0 +1,87 @@
+export default [
+  {
+    componentName: 'FrontPage',
+    title: 'Главная',
+    path: '/front',
+    exact: 'exact',
+    icon: 'home',
+  },
+  {
+    componentName: 'Profile',
+    title: 'Профиль',
+    path: '/profile',
+    icon: 'user',
+  },
+  {
+    componentName: 'Partners',
+    title: 'Подружки',
+    path: '/mates',
+    icon: 'team',
+  },
+  {
+    componentName: 'Balance',
+    title: 'Баланс',
+    path: '/balance',
+    icon: 'wallet',
+  },
+  {
+    componentName: 'Salons',
+    title: 'Салоны',
+    path: '/salons',
+    icon: 'shop',
+  },
+  // {
+  //   componentName: 'Salon',
+  //   title: 'Салон <dev>',
+  //   path: '/salon/34',
+  //   icon: '',
+  // },
+  {
+    componentName: 'SalonAdminSalon',
+    title: 'Салон',
+    path: '/salon/admin/salon',
+    icon: 'idcard',
+  },
+  {
+    componentName: 'SalonAdminClients',
+    title: 'Клиенты',
+    path: '/salon/admin/clients',
+    icon: 'team',
+  },
+  {
+    componentName: 'SalonAdminReceipts',
+    title: 'Счета',
+    path: '/salon/admin/receipts',
+    icon: 'copy',
+  },
+  {
+    componentName: 'SalonAdminBills',
+    title: 'Расчеты',
+    path: '/salon/admin/bills',
+    icon: 'calculator',
+  },
+  {
+    componentName: 'HowTo',
+    title: 'Как это работает',
+    path: '/howto',
+    icon: 'tool',
+  },
+  {
+    componentName: 'Sign',
+    title: 'Вход',
+    path: '/sign',
+    icon: 'login',
+  },
+  {
+    componentName: 'FrontPageSalons',
+    title: 'Для салонов',
+    path: '/front/salons',
+    icon: 'plus-circle-o',
+  },
+  {
+    componentName: 'SignOut',
+    title: 'Выйти',
+    path: '/signout',
+    icon: 'logout',
+  },
+]

@@ -1,0 +1,155 @@
+@import '~antd/dist/antd.less';
+
+@primary-purple: #673ba2;
+@primary-pink: #f01397;
+@burger-lite: #fcf5f6;
+
+@media (min-width: 1200px) {
+  .square {
+    width: 24%;
+  }
+  .gallery {
+    padding: 0 3px;
+    .salon-card {
+      width: 33%;
+      margin: .15% !important;
+      .ant-tabs-nav .ant-tabs-tab {
+        margin: 0 12px 0 0;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .square {
+    width: 49%;
+  }
+  .salon-card {
+    width: 49%;
+  }
+}
+@media (max-width: 1000px) {
+  .salon-card .ant-tabs-nav .ant-tabs-tab {
+    margin: 0 12px 0 0;
+  }
+}
+@media (max-width: 991px) {
+  .frontpage .tree .girls-tree {
+    width: 100% !important;
+  }
+  .frontpage .tree .description {
+    width: 100% !important;
+    padding-left: 24px;
+    img.upline-id {
+      display: block;
+      margin: auto !important;
+      width: auto !important;
+    }
+  }
+  .find {
+    .find-salon-wrapper {
+      padding: 0 30px !important;
+    }
+  }
+  .ant-form .ant-col-7 {
+    width: 35% !important;
+  }
+}
+@media (min-width: 600px) and (max-width: 750px){
+  .star-icon {
+    width: 15% !important;
+  }
+}
+@media (max-width: 750px) {
+  .h1, h1 {
+    font-size: 27px;
+  }
+  .ant-row.ant-form-item {
+    padding: 0 14px;
+    .ant-form-item-control-wrapper {
+      width: 60%;
+    }
+  }
+  .salon-card {
+    width: 99%;
+  }
+  .footer .bottom-menu {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+  .frontpage .calculator .col-6 {
+    width: 100% !important;
+    .calculate {
+      margin-top: 14px;
+    }
+  }
+  .frontpage .beginning .col-6 {
+    width: 100% !important;
+    border: none;
+  }
+  .frontpage .connect .col-4, .frontpage .about .col-4, .frontpage .join .col-6 {
+    width: 100% !important;
+  }
+}
+@media (max-width: 650px) {
+  .ant-tabs-nav .ant-tabs-tab span {
+    span {
+      display: none;
+    }
+    i {
+      font-size: 29px;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .square {
+    width: 99%;
+  }
+  .front .frontpage .banner .text-wrapper .text p {
+    margin-bottom: 13px;
+    line-height: 18px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+@media (max-width: 480px) {
+  .frontpage .tree .description {
+    img.upline-id {
+      width: 100% !important;
+    }
+  }
+  .ant-form .ant-col-7, .ant-form .ant-col-11 {
+    width: 100% !important;
+  }
+  .find-salons {
+    form {
+      margin-bottom: 10px;
+      .ant-form-item-label{
+        line-height: 16px !important;
+        padding-bottom: 0;
+        label {
+          float: left !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .front .frontpage .banner .text-wrapper .text {
+    p {
+      margin-bottom: 5px;
+    }
+    button {
+      margin: 5px 0;
+    }
+  }
+}
+@media (max-width: 370px) {
+  .ant-tabs-nav .ant-tabs-tab span {
+    i {
+      font-size: 29px;
+    }
+  }
+  .salon-card .ant-tabs-nav .ant-tabs-tab {
+    margin: 0;
+  }
+}

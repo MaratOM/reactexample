@@ -1,0 +1,7 @@
+export const ANONYMOUS = 'ANONYMOUS'
+export const ADMIN = 'ADMIN'
+export const MEMBER = 'MEMBER'
+export const MATE = 'MATE'
+export const SALON_OWNER = 'SALON_OWNER'
+export const SALON_ADMIN = 'SALON_ADMIN'
+export const SALON_ADMIN_ADDING = 'SALON_ADMIN_ADDING'
